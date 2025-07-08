@@ -7,16 +7,83 @@
     "wdth" 100;
 }
 
-
-Nav {
-    display: flex;
+.text-primary {
+    color: #FD6E0A;
 }
 
-.text-primary {
-    color: brown;
+.dark-2 {
+    color: #474747;
+}
+
+/*Header*/
+header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* Nav */
+Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    }
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.main-button {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+
+/* Hero Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px 0px 250px;
+}
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+        }
+
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-description {
+    color: #474747;
+}
+
+.heroimage {
+display: flex;
 }
