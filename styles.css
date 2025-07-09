@@ -7,17 +7,44 @@
     "wdth" 100;
 }
 
+ /* Shared CSS*/
+ .bg2 {
+    background-color: #FFF8F3;
+ }
+
 .text-primary {
     color: #FD6E0A;
+}
+.dark-1 {
+    color: #181818;
 }
 
 .dark-2 {
     color: #474747;
 }
 
+.main-button {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.aboutdescription {
+    font-size: 18px;
+    color: #474747;
+}
+
 /*Header*/
 header {
-    background-image: url(images/developer.png), url(images/header_bg.png);
+        background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -50,15 +77,6 @@ nav ul a {
     text-decoration: none;
 }
 
-.main-button {
-    background-color: #FD6E0A;
-    color: #ffffff;
-    border-radius: 2px;
-    border: none;
-    padding: 18px 35px;
-    font-size: 20px;
-}
-
 
 /* Hero Section */
 .banner {
@@ -86,4 +104,29 @@ nav ul a {
 
 .heroimage {
 display: flex;
+}
+
+/*Main Section*/
+.main{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 230px auto;
+}
+
+/*About Me*/
+.aboutme {
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 150px auto;
+    padding: 120px 140px;
+}
+
+.aboutinfo {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-description {
+    font-weight: 800;
 }
