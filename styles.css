@@ -22,6 +22,9 @@
 .dark-2 {
     color: #474747;
 }
+.dark-3 {
+    color: #757575;
+}
 
 .main-button {
     background-color: #FD6E0A;
@@ -37,9 +40,16 @@
     font-weight: bold;
     color: #181818;
 }
-.aboutdescription {
+.about-description {
     font-size: 18px;
-    color: #474747;
+    color: #757575;
+}
+.text-center {
+    text-align: center;
+}
+
+.sectionmargin {
+    margin: 130px auto;
 }
 
 /*Header*/
@@ -117,7 +127,6 @@ display: flex;
 .aboutme {
     text-align: center;
     background-color: #FFF8F3;
-    margin: 150px auto;
     padding: 120px 140px;
 }
 
@@ -129,4 +138,15 @@ display: flex;
 
 .item-description {
     font-weight: 800;
+}
+
+/*Skill Section*/
+.skill-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    }
+.skill-box {
+    padding: 30px;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.06);
 }
